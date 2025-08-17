@@ -1,10 +1,10 @@
-# src/book.py
+
 
 class Book:
     def __init__(self, title, author):
         self.title = title
-        self.author = author   # link back to Author
-        self._reviews = []     # keeps track of reviews for this book
+        self.author = author   
+        self._reviews = []     
 
     def add_review(self, reader, rating, comment):
         """Create a new Review and associate it with this Book"""
